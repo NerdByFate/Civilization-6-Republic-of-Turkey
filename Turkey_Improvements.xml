@@ -4,7 +4,7 @@
 		<Row Type="IMPROVEMENT_YALI" Kind="KIND_IMPROVEMENT"/>
 	</Types>
 	<Improvements>
-		<Row ImprovementType="IMPROVEMENT_YALI" Name="LOC_IMPROVEMENT_YALI_NAME" Description="LOC_IMPROVEMENT_YALI_DESCRIPTION" Icon="ICON_IMPROVEMENT_CHATEAU" PlunderType="PLUNDER_CULTURE" PlunderAmount="25" Buildable="true" Housing="1" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_YALI"/>
+		<Row ImprovementType="IMPROVEMENT_YALI" Name="LOC_IMPROVEMENT_YALI_NAME" Description="LOC_IMPROVEMENT_YALI_DESCRIPTION" Icon="ICON_IMPROVEMENT_CHATEAU" PlunderType="PLUNDER_CULTURE" PlunderAmount="25" PrereqCivic="CIVIC_NATIONALISM" Buildable="true" Housing="1" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_YALI"/>
 	</Improvements>
 	<Improvement_ValidTerrains>
 		<Row ImprovementType="IMPROVEMENT_YALI" TerrainType="TERRAIN_COAST"/>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Mod id="964f5dbd-724h-A9D2-jh27-A254dgbdd85h" version="1">
+	<Properties>
+		<Name>LOC_TURKEY_TITLE</Name>
+		<Teaser>LOC_TURKEY_TEASER</Teaser>
+		<Description>LOC_TURKEY_DESC</Description>
+		<Authors>LOC_TURKEY_AUTHOR</Authors>
+	</Properties>
+	<Components>
+		<UpdateDatabase id="TURKEY_COMPONENT">
+			<Items>
+				<File>Turkey_Buildings.xml</File>
+				<File>Turkey_Civilizations.xml</File>
+				<File>Turkey_Colours.xml</File>
+				<File>Turkey_Gossip.xml</File>
+				<File>Turkey_Leaders.xml</File>
+				<File>Turkey_PlayerColours.xml</File>
+				<File>Turkey_Units.xml</File>
+			</Items>
+		</UpdateDatabase>
+		<LocalizedText id="TURKEY_TEXT">
+			<Items>
+				<File>Turkey_Text.xml</File>
+			</Items>
+		</LocalizedText>
+	</Components>
+	<Settings>
+		<Custom id="TURKEY_SETTING">
+			<Items>
+				<File>Turkey_Config.xml</File>
+			</Items>
+		</Custom>
+		<LocalizedText id="TURKEY_SETTING_TEXT">
+			<Items>
+				<File>Turkey_Config_Text.xml</File>
+			</Items>
+		</LocalizedText>
+	</Settings>
+	<LocalizedText>
+		<Text id="LOC_TURKEY_TITLE">
+			<en_US>Republic of Turkey</en_US>
+		</Text>
+		<Text id="LOC_TURKEY_TEASER">
+			<en_US>Welcome, o Atatürk, to Civilization VI!</en_US>
+		</Text>
+		<Text id="LOC_TURKEY_DESC">
+			<en_US>A mod that adds the Republic of Turkey led by Mustafa Kemal into the game.</en_US>
+		</Text>
+		<Text id="LOC_TURKEY_AUTHOR">
+			<en_US>NerdByFate</en_US>
+		</Text>
+	</LocalizedText>
+	<Files>
+		<File>Turkey_Buildings.xml</File>
+		<File>Turkey_Config.xml</File>
+		<File>Turkey_Config_Text.xml</File>
+		<File>Turkey_Civilizations.xml</File>
+		<File>Turkey_Colours.xml</File>
+		<File>Turkey_Gossip.xml</File>
+		<File>Turkey_Leaders.xml</File>
+		<File>Turkey_PlayerColours.xml</File>
+		<File>Turkey_Text.xml</File>
+		<File>Turkey_Units.xml</File>
+	</Files>
+</Mod>

@@ -9,14 +9,14 @@
 	<Components>
 		<UpdateDatabase id="TURKEY_COMPONENT">
 			<Items>
-				<File>Turkey_Buildings.xml</File> <!--DONE-->
-				<File>Turkey_Improvements.xml</File> <!--DONE-->
-				<File>Turkey_Civilizations.xml</File> <!--DONE-->
-				<File>Turkey_Colours.xml</File> <!--DONE-->
-				<File>Turkey_Gossip.xml</File> <!--DONE-->
-				<File>Turkey_Leaders.xml</File> <!--DONE-->
-				<File>Turkey_PlayerColours.xml</File> <!--DONE-->
-				<File>Turkey_Units.xml</File> <!--DONE-->
+				<File>Turkey_Buildings.xml</File>
+				<File>Turkey_Improvements.xml</File>
+				<File>Turkey_Civilizations.xml</File>
+				<File>Turkey_Colours.xml</File>
+				<File>Turkey_Gossip.xml</File>
+				<File>Turkey_Leaders.xml</File>
+				<File>Turkey_PlayerColours.xml</File>
+				<File>Turkey_Units.xml</File>
 			</Items>
 		</UpdateDatabase>
 		<LocalizedText id="TURKEY_TEXT">

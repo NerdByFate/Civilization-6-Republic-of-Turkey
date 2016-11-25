@@ -10,7 +10,7 @@
 	<Row UnitType="UNIT_HAKKARI" AiType="UNITTYPE_LAND_COMBAT"/>
   </UnitAiInfos>
   <Units>
-    <Row UnitType="UNIT_HAKKARI" BaseMoves="2" Cost="370" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_MELEE" Name="LOC_UNIT_HAKKARI_NAME" Description="LOC_UNIT_HAKKARI_DESCRIPTION" PurchaseYield="YIELD_GOLD" Maintenance="5" Combat="60" TraitType="TRAIT_CIVILIZATION_UNIT_HAKKARI" PrereqTech="TECH_REPLACEABLE_PARTS"/>
+    <Row UnitType="UNIT_HAKKARI" BaseMoves="2" Cost="370" AdvisorType="ADVISOR_CONQUEST" BaseSightRange="2" ZoneOfControl="true" Domain="DOMAIN_LAND" FormationClass="FORMATION_CLASS_LAND_COMBAT" PromotionClass="PROMOTION_CLASS_MELEE" Name="LOC_UNIT_HAKKARI_NAME" Description="LOC_UNIT_HAKKARI_DESCRIPTION" PurchaseYield="YIELD_GOLD" Maintenance="5" Combat="66" TraitType="TRAIT_CIVILIZATION_UNIT_HAKKARI" PrereqTech="TECH_REPLACEABLE_PARTS"/>
   </Units>
   <Tags>
 	<Row Tag="CLASS_HAKKARI" Vocabulary="ABILITY_CLASS"/>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+  <LocalizedText>
+    <Row Tag="LOC_CIVILIZATION_TURKEY_NAME" Language="en_US">
+      <Text>Turkey</Text>
+    </Row>
+    <Row Tag="LOC_LEADER_MUSTAFA_KEMAL_NAME" Language="en_US">
+      <Text>Mustafa Kemal</Text>
+    </Row>
+   <Row Tag="LOC_TRAIT_CIVILIZATION_STRATEGIC_DEPTH_NAME" Language="en_US">
+      <Text>Strategic Depth</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_CIVILIZATION_STRATEGIC_DEPTH_DESCRIPTION" Language="en_US">
+      <Text>+3 diplomatic visibility with all met Civilizations.</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_KEMALISM_NAME" Language="en_US">
+      <Text>Kemalism</Text>
+    </Row>
+    <Row Tag="LOC_TRAIT_LEADER_KEMALISM_DESCRIPTION" Language="en_US">
+      <Text>All Turkey-owned luxuries apply to 6 more cities than normal.</Text>
+    </Row>
+   <Row Tag="LOC_UNIT_HAKKARI_NAME" Language="en_US">
+      <Text>Hakkâri Dağ ve Komando Tugayı</Text>
+    </Row>
+    <Row Tag="LOC_UNIT_HAKKARI_DESCRIPTION" Language="en_US">
+      <Text>Hakkari Mountain and Commando Brigade. A Commando-style unique unit that is unlocked with Replaceable Parts, has 4 less combat strength than an infantry, and has 4 movement instead of 2 (does not replace the Infantry).</Text>
+    </Row>
+	<Row Tag="LOC_IMPROVEMENT_YALI_NAME" Language="en_US">
+		<Text>Yalı</Text>
+	</Row>
+	<Row Tag="LOC_IMPROVEMENT_YALI_DESCRIPTION" Language="en_US">
+		<Text>A unique improvement. Provides +3 culture, +1 science, and some housing.</Text>
+	</Row>
+  </LocalizedText>
+</GameData>

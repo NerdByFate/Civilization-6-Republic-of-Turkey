@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="LEADER_MUSTAFA_KEMAL" Kind="KIND_LEADER"/>
+		<Row Type="TRAIT_LEADER_KEMALISM" Kind="KIND_TRAIT"/>
+	</Types>
+	<Leaders>
+		<Row LeaderType="LEADER_MUSTAFA_KEMAL" Name="LOC_LEADER_MUSTAFA_KEMAL_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+	</Leaders>
+	<HistoricalAgendas>
+		<Row LeaderType="LEADER_MUSTAFA_KEMAL" AgendaType="AGENDA_BIG_STICK_POLICY"/>
+	</HistoricalAgendas>
+	<AiListTypes>
+		<Row ListType="MustafaCivics"/>
+		<Row ListType="MustafaTechs"/>
+		<Row ListType="MustafaWonders"/>
+	</AiListTypes>
+	<AiLists>
+		<Row ListType="MustafaWonders" LeaderType="TRAIT_LEADER_KEMALISM" System="Buildings"/>
+		<Row ListType="MustafaCivics" LeaderType="TRAIT_LEADER_KEMALISM" System="Civics"/>
+		<Row ListType="MustafaTechs" LeaderType="TRAIT_LEADER_KEMALISM" System="Technologies"/>
+	</AiLists>
+	<AiFavoredItems>
+		<Row ListType="MustafaWonders" Item="BUILDING_OXFORD_UNIVERSITY"/>
+		<Row ListType="MustafaCivics" Item="CIVIC_MEDIEVAL_FAIRES"/>
+		<Row ListType="MustafaCivics" Item="CIVIC_EARLY_EMPIRE"/>
+		<Row ListType="MustafaCivics" Item="CIVIC_POLITICAL_PHILOSOPHY"/>
+		<Row ListType="MustafaCivics" Item="CIVIC_THE_ENLIGHTENMENT"/>
+		<Row ListType="MustafaCivics" Item="CIVIC_CIVIL_ENGINEERING"/>
+		<Row ListType="MustafaCivics" Item="CIVIC_SUFFRAGE"/>
+		<Row ListType="MustafaTechs" Item="TECH_NUCLEAR_FUSION"/>
+		<Row ListType="MustafaTechs" Item="TECH_NUCLEAR_FISSION"/>
+	</AiFavoredItems>
+	<LeaderTraits>
+		<Row LeaderType="LEADER_MUSTAFA_KEMAL" TraitType="TRAIT_LEADER_KEMALISM"/>
+	</LeaderTraits>
+	<Traits>
+		<Row TraitType="TRAIT_LEADER_KEMALISM" Name="LOC_TRAIT_LEADER_KEMALISM_NAME" Description="LOC_TRAIT_LEADER_KEMALISM_DESCRIPTION"/>
+	</Traits>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_LEADER_KEMALISM" ModifierId="TRAIT_LUXURY_BONUS"/>
+	</TraitModifiers>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_LUXURY_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_OWNED_LUXURY_EXTRA_AMENITIES</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_LUXURY_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>6</Value>
+		</Row>
+	</ModifierArguments>
+</GameInfo>

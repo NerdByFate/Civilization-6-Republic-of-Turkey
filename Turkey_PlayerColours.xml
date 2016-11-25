@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<PlayerColors>
+			<Row>
+				<Type>LEADER_MUSTAFA_KEMAL</Type>
+				<Usage>Unique</Usage>
+				<PrimaryColor>COLOR_PLAYER_TURKEY_PRIMARY</PrimaryColor>
+				<SecondaryColor>COLOR_PLAYER_TURKEY_SECONDARY</SecondaryColor>
+				<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+			</Row>
+	</PlayerColors>
+</GameInfo>

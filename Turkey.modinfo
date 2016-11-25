@@ -9,13 +9,14 @@
 	<Components>
 		<UpdateDatabase id="TURKEY_COMPONENT">
 			<Items>
-				<File>Turkey_Buildings.xml</File>
-				<File>Turkey_Civilizations.xml</File>
-				<File>Turkey_Colours.xml</File>
-				<File>Turkey_Gossip.xml</File>
-				<File>Turkey_Leaders.xml</File>
-				<File>Turkey_PlayerColours.xml</File>
-				<File>Turkey_Units.xml</File>
+				<File>Turkey_Buildings.xml</File> <!--DONE-->
+				<File>Turkey_Improvements.xml</File> <!--DONE-->
+				<File>Turkey_Civilizations.xml</File> <!--DONE-->
+				<File>Turkey_Colours.xml</File> <!--DONE-->
+				<File>Turkey_Gossip.xml</File> <!--DONE-->
+				<File>Turkey_Leaders.xml</File> <!--DONE-->
+				<File>Turkey_PlayerColours.xml</File> <!--DONE-->
+				<File>Turkey_Units.xml</File> <!--DONE-->
 			</Items>
 		</UpdateDatabase>
 		<LocalizedText id="TURKEY_TEXT">
@@ -44,7 +45,7 @@
 			<en_US>Welcome, o Atatürk, to Civilization VI!</en_US>
 		</Text>
 		<Text id="LOC_TURKEY_DESC">
-			<en_US>A mod that adds the Republic of Turkey led by Mustafa Kemal into the game.</en_US>
+			<en_US>A mod that adds the "Republic of Turkey" led by Mustafa Kemal into the game.</en_US>
 		</Text>
 		<Text id="LOC_TURKEY_AUTHOR">
 			<en_US>NerdByFate</en_US>
@@ -52,6 +53,7 @@
 	</LocalizedText>
 	<Files>
 		<File>Turkey_Buildings.xml</File>
+		<File>Turkey_Improvements.xml</File>
 		<File>Turkey_Config.xml</File>
 		<File>Turkey_Config_Text.xml</File>
 		<File>Turkey_Civilizations.xml</File>

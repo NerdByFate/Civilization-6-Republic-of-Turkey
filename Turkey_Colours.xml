@@ -10,9 +10,9 @@
 		</Row>
 		<Row>
 			<Type>COLOR_PLAYER_TURKEY_SECONDARY</Type>
-			<Red>0.000</Red>
-			<Green>0.000</Green>
-			<Blue>0.000</Blue>
+			<Red>1.000</Red>
+			<Green>1.000</Green>
+			<Blue>1.000</Blue>
 			<Alpha>1</Alpha>
 		</Row>
 	</Colors>

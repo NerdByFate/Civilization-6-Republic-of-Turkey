@@ -6,14 +6,36 @@
 	<Improvements>
 		<Row ImprovementType="IMPROVEMENT_YALI" Name="LOC_IMPROVEMENT_YALI_NAME" Description="LOC_IMPROVEMENT_YALI_DESCRIPTION" Icon="ICON_IMPROVEMENT_CHATEAU" PlunderType="PLUNDER_CULTURE" PlunderAmount="25" PrereqCivic="CIVIC_NATIONALISM" Buildable="true" Housing="1" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_YALI"/>
 	</Improvements>
+	<Improvement_Adjacencies>
+		<Row ImprovementType="IMPROVEMENT_YALI" YieldChangeId="Yali_CultureCoast"/>
+		<Row ImprovementType="IMPROVEMENT_YALI" YieldChangeId="Yali_ScienceCoast"/>
+	</Improvement_Adjacencies>
+	<Improvement_ValidFeatures>
+		<Row ImprovementType="IMPROVEMENT_YALI" FeatureType="FEATURE_FOREST"/>
+		<Row ImprovementType="IMPROVEMENT_YALI" FeatureType="FEATURE_JUNGLE"/>
+		<Row ImprovementType="IMPROVEMENT_YALI" FeatureType="FEATURE_MARSH"/>
+	</Improvement_ValidFeatures>
 	<Improvement_ValidTerrains>
-		<Row ImprovementType="IMPROVEMENT_YALI" TerrainType="TERRAIN_COAST"/>
+		<Row ImprovementType="IMPROVEMENT_YALI" TerrainType="TERRAIN_DESERT"/>
+		<Row ImprovementType="IMPROVEMENT_YALI" TerrainType="TERRAIN_TUNDRA"/>
+		<Row ImprovementType="IMPROVEMENT_YALI" TerrainType="TERRAIN_PLAINS"/>
+		<Row ImprovementType="IMPROVEMENT_YALI" TerrainType="TERRAIN_GRASS"/>
+		<Row ImprovementType="IMPROVEMENT_YALI" TerrainType="TERRAIN_SNOW"/>
+		<Row ImprovementType="IMPROVEMENT_YALI" TerrainType="TERRAIN_DESERT_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_YALI" TerrainType="TERRAIN_TUNDRA_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_YALI" TerrainType="TERRAIN_PLAINS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_YALI" TerrainType="TERRAIN_GRASS_HILLS"/>
+		<Row ImprovementType="IMPROVEMENT_YALI" TerrainType="TERRAIN_SNOW_HILLS"/>
 	</Improvement_ValidTerrains>
 	<Improvement_ValidBuildUnits>
 		<Row ImprovementType="IMPROVEMENT_YALI" UnitType="UNIT_BUILDER"/>
 	</Improvement_ValidBuildUnits>
 	<Improvement_YieldChanges>
-		<Row ImprovementType="IMPROVEMENT_YALI" YieldType="YIELD_CULTURE" YieldChange="3"/>
-		<Row ImprovementType="IMPROVEMENT_YALI" YieldType="YIELD_SCIENCE" YieldChange="1"/>
+		<Row ImprovementType="IMPROVEMENT_YALI" YieldType="YIELD_CULTURE" YieldChange="0"/>
+		<Row ImprovementType="IMPROVEMENT_YALI" YieldType="YIELD_SCIENCE" YieldChange="0"/>
 	</Improvement_YieldChanges>
+	<Adjacency_YieldChanges>
+		<Row ID="Yali_CultureCoast" Description="Placeholder" YieldType="YIELD_CULTURE" YieldChange="3" TilesRequired="1" AdjacentTerrain="TERRAIN_COAST"/>
+		<Row ID="Yali_ScienceCoast" Description="Placeholder" YieldType="YIELD_SCIENCE" YieldChange="1" TilesRequired="1" AdjacentTerrain="TERRAIN_COAST"/>
+	</Adjacency_YieldChanges>
 </GameInfo>

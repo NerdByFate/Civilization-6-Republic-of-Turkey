@@ -23,7 +23,7 @@
 		<Text>Yalı</Text>
 	</Row>
 	<Row Tag="LOC_IMPROVEMENT_YALI_DESCRIPTION" Language="en_US">
-		<Text>A unique improvement. Provides +3 culture, +1 science, and some housing.</Text>
+		<Text>A unique improvement. Provides +3 culture, +1 science, and some housing. Must be built adjacent to the coast, or it provides no yields. More science and culture when adjacent to more than one coast tile.</Text>
 	</Row>
 	<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAKKARI_CHAPTER_HISTORY_PARA_1" Language="en_US">
 		<Text>The Hakkari Mountain and Commando Brigade is a Turkish military unit that is used in mountain warfare and Commando operations. It is primarily used in struggles with the Kurditan Workers' Party.</Text>

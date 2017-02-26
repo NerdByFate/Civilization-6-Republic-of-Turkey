@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconDefinitions>
+		<Row Name="ICON_IMPROVEMENT_YALI" Atlas="ICON_ATLAS_IMPROVEMENTS" Index="0"/>
+		<Row Name="ICON_CIVILIZATION_TURKEY" Atlas="ICON_ATLAS_CIVILIZATIONS" Index="0"/>
+		<Row Name="ICON_LEADER_MUSTAFA_KEMAL" Atlas="ICON_ATLAS_LEADERS" Index="0"/>
+		<Row Name="ICON_UNIT_HAKKARI" Atlas="ICON_ATLAS_UNITS" Index="0"/>
+	</IconDefinitions>
+</GameData>

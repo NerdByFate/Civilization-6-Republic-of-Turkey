@@ -1,35 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <GameData>
-  <LocalizedText>
-    <Row Tag="LOC_CIVILIZATION_TURKEY_NAME" Language="en_US">
-      <Text>Turkey</Text>
-    </Row>
-    <Row Tag="LOC_LEADER_MUSTAFA_KEMAL_NAME" Language="en_US">
-      <Text>Mustafa Kemal</Text>
-    </Row>
-   <Row Tag="LOC_TRAIT_CIVILIZATION_STRATEGIC_DEPTH_NAME" Language="en_US">
-      <Text>Strategic Depth</Text>
-    </Row>
-    <Row Tag="LOC_TRAIT_CIVILIZATION_STRATEGIC_DEPTH_DESCRIPTION" Language="en_US">
-      <Text>+3 diplomatic visibility with all met Civilizations.</Text>
-    </Row>
-    <Row Tag="LOC_TRAIT_LEADER_KEMALISM_NAME" Language="en_US">
-      <Text>Kemalism</Text>
-    </Row>
-    <Row Tag="LOC_TRAIT_LEADER_KEMALISM_DESCRIPTION" Language="en_US">
-      <Text>All Turkey-owned luxuries apply to 6 more cities than normal.</Text>
-    </Row>
-   <Row Tag="LOC_UNIT_HAKKARI_NAME" Language="en_US">
-      <Text>Hakkâri Dağ ve Komando Tugayı</Text>
-    </Row>
-    <Row Tag="LOC_UNIT_HAKKARI_DESCRIPTION" Language="en_US">
-      <Text>Hakkari Mountain and Commando Brigade. A Commando-style unique unit that is unlocked with Replaceable Parts, has 4 less combat strength than an infantry, and has 4 movement instead of 2 (does not replace the Infantry).</Text>
-    </Row>
-	<Row Tag="LOC_IMPROVEMENT_YALI_NAME" Language="en_US">
-		<Text>Yalı</Text>
-	</Row>
-	<Row Tag="LOC_IMPROVEMENT_YALI_DESCRIPTION" Language="en_US">
-		<Text>A unique improvement. Provides +3 culture, +1 science, and some housing. Must be built adjacent to the coast, or it provides no yields. More science and culture when adjacent to more than one coast tile.</Text>
-	</Row>
-  </LocalizedText>
+	<LocalizedText>
+		<Row Tag="LOC_CIVILIZATION_TURKEY_NAME" Language="en_US">
+			<Text>Turkey</Text>
+		</Row>
+		<Row Tag="LOC_LEADER_MUSTAFA_KEMAL_NAME" Language="en_US">
+			<Text>Mustafa Kemal</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_STRATEGIC_DEPTH_NAME" Language="en_US">
+			<Text>Strategic Depth</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_CIVILIZATION_STRATEGIC_DEPTH_DESCRIPTION" Language="en_US">
+			<Text>+3 diplomatic visibility with all met Civilizations.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_KEMALISM_NAME" Language="en_US">
+			<Text>Kemalism</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_KEMALISM_DESCRIPTION" Language="en_US">
+			<Text>All Turkey-owned luxuries apply to 6 more cities than normal.</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAKKARI_NAME" Language="en_US">
+			<Text>Hakkâri Dağ ve Komando Tugayı</Text>
+		</Row>
+		<Row Tag="LOC_UNIT_HAKKARI_DESCRIPTION" Language="en_US">
+			<Text>Hakkari Mountain and Commando Brigade. A Commando-style unique unit that is unlocked with Replaceable Parts, has 4 less combat strength than an infantry, and has 4 movement instead of 2 (does not replace the Infantry).</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_YALI_NAME" Language="en_US">
+			<Text>Yalı</Text>
+		</Row>
+		<Row Tag="LOC_IMPROVEMENT_YALI_DESCRIPTION" Language="en_US">
+			<Text>A unique improvement. Provides +3 culture, +1 science, and some housing. Must be built adjacent to the coast, or it provides no yields. More science and culture when adjacent to more than one coast tile.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAKKARI_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The Hakkari Mountain and Commando Brigade is a Turkish military unit that is used in mountain warfare and Commando operations. It is primarily used in struggles with the Kurditan Workers' Party.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_IMPROVEMENTS_PAGE_IMPROVEMENT_YALI_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>A yalı is nothing more than a Turkish residential structure built on the coast. Yalı literaly translates to "seaside."</Text>
+		</Row>
+		<Row Tag="LOC_CIVILIZATION_TURKEY_DESCRIPTION" Language="en_US">
+			<Text>Republic of Turkey</Text>
+		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_MUSTAFA_KEMAL" Language="en_US">
+			<Text>Greetings o great Atatürk! They do not call you "Father Turk" for nothing, as it was your military prowess and will for reform that established and maintained the Republic of Turkey. Forged from the ruins of the Ottoman Empire after World War I, the Republic of Turkey quickly became a power to be reckoned with. It was not that simple, however, as you had to fight the Greeks in order to gain sovereignty. You succeded. Can you, president Kemal, create an empire to stand the test of time?</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MUSTAFA_KEMAL_TITLE" Language="en_US">
+			<Text>Atatürk</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MUSTAFA_KEMAL_SUBTITLE" Language="en_US">
+			<Text>Atatürk</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MUSTAFA_KEMAL_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>Mustafa Kemal was the first president of the Republic of Turkey. He was known by his people as Atatürk, "Father Turk," for several reasons. Kemal commanded the Turkish armies after the fall of the Ottoman Turks in a war against Greece. Succeeding, Kemal founded the Republic of Turkey and became a national hero. During his rule, Kemal established a number of reforms, some quite contraversial. Kemal's reforms, known as "Kemalism," were mimicked to an extent by Iran.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_TURKEY_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>The Republic of Turkey was forged from the ruins of the Ottoman Empire. The Ottomans, already weakened, could not handle the consequences of being on the losing side of World War I. Opposed by the Allies, portions of the Ottoman Empire began to rebel. When the Ottomans finally fell, it was Mustafa Kemal who was there to clean up the region. Kemal routed the Greeks, who had interest in the area, and established the Republic of Turkey.</Text>
+		</Row>
+	</LocalizedText>
 </GameData>

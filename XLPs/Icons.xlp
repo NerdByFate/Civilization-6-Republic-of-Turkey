@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<AssetObjects::XLP>
+	<m_Version>
+		<major>4</major>
+		<minor>0</minor>
+		<build>253</build>
+		<revision>293</revision>
+	</m_Version>
+	<m_ClassName text="UITexture"/>
+	<m_PackageName text="Icons"/>
+	<m_Entries>
+		<Element>
+			<m_EntryID text="Kemal256"/>
+			<m_ObjectName text="Kemal256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Kemal80"/>
+			<m_ObjectName text="Kemal80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Kemal64"/>
+			<m_ObjectName text="Kemal64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Kemal55"/>
+			<m_ObjectName text="Kemal55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Kemal50"/>
+			<m_ObjectName text="Kemal50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Kemal45"/>
+			<m_ObjectName text="Kemal45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Kemal32"/>
+			<m_ObjectName text="Kemal32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Turkey_Atlas256"/>
+			<m_ObjectName text="Turkey_Atlas256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Turkey_Atlas80"/>
+			<m_ObjectName text="Turkey_Atlas80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Turkey_Atlas64"/>
+			<m_ObjectName text="Turkey_Atlas64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Turkey_Atlas50"/>
+			<m_ObjectName text="Turkey_Atlas50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Turkey_Atlas48"/>
+			<m_ObjectName text="Turkey_Atlas48"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Turkey_Atlas45"/>
+			<m_ObjectName text="Turkey_Atlas45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Turkey_Atlas44"/>
+			<m_ObjectName text="Turkey_Atlas44"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Turkey_Atlas36"/>
+			<m_ObjectName text="Turkey_Atlas36"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Turkey_Atlas30"/>
+			<m_ObjectName text="Turkey_Atlas30"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Turkey_Atlas22"/>
+			<m_ObjectName text="Turkey_Atlas22"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Yali256"/>
+			<m_ObjectName text="Yali256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Yali128"/>
+			<m_ObjectName text="Yali128"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Yali80"/>
+			<m_ObjectName text="Yali80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Yali50"/>
+			<m_ObjectName text="Yali50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Yali38"/>
+			<m_ObjectName text="Yali38"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Yali32"/>
+			<m_ObjectName text="Yali32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Hakkari256"/>
+			<m_ObjectName text="Hakkari256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Brigade80"/>
+			<m_ObjectName text="Brigade80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Brigade50"/>
+			<m_ObjectName text="Brigade50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Brigade32"/>
+			<m_ObjectName text="Brigade32"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Brigade22"/>
+			<m_ObjectName text="Brigade22"/>
+		</Element>
+	</m_Entries>
+	<m_AllowedPlatforms>
+		<Element>WINDOWS</Element>
+		<Element>LINUX</Element>
+		<Element>MACOS</Element>
+		<Element>IOS</Element>
+	</m_AllowedPlatforms>
+</AssetObjects::XLP>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Colors>
+		<Row>
+			<Type>COLOR_PLAYER_TURKEY_PRIMARY</Type>
+			<Red>1.000</Red>
+			<Green>0.000</Green>
+			<Blue>0.000</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+		<Row>
+			<Type>COLOR_PLAYER_TURKEY_SECONDARY</Type>
+			<Red>1.000</Red>
+			<Green>1.000</Green>
+			<Blue>1.000</Blue>
+			<Alpha>1</Alpha>
+		</Row>
+	</Colors>
+</GameInfo>

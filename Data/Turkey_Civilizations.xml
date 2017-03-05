@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameInfo>
+	<Types>
+		<Row Type="CIVILIZATION_TURKEY" Kind="KIND_CIVILIZATION"/>
+   		<Row Type="TRAIT_CIVILIZATION_STRATEGIC_DEPTH" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_IMPROVEMENT_YALI" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_CIVILIZATION_UNIT_HAKKARI" Kind="KIND_TRAIT"/>
+	</Types>
+	<Civilizations>
+		<Row CivilizationType="CIVILIZATION_TURKEY" Name="LOC_CIVILIZATION_TURKEY_NAME" Description="LOC_CIVILIZATION_TURKEY_DESCRIPTION" Adjective="LOC_CIVILIZATION_TURKEY_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" RandomCityNameDepth="3" Ethnicity="ETHNICITY_EURO"/>
+	</Civilizations>
+	<CivilizationLeaders>
+		<Row CivilizationType="CIVILIZATION_TURKEY" LeaderType="LEADER_MUSTAFA_KEMAL" CapitalName="Istanbul"/>
+	</CivilizationLeaders>
+	<Traits>
+		<Row TraitType="TRAIT_CIVILIZATION_STRATEGIC_DEPTH" Name="LOC_TRAIT_CIVILIZATION_STRATEGIC_DEPTH_NAME" Description="LOC_TRAIT_CIVILIZATION_STRATEGIC_DEPTH_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_YALI" Name="LOC_IMPROVEMENT_YALI_NAME" Description="LOC_IMPROVEMENT_YALI_DESCRIPTION"/>
+		<Row TraitType="TRAIT_CIVILIZATION_UNIT_HAKKARI" Name="LOC_UNIT_HAKKARI_NAME" Description="LOC_UNIT_HAKKARI_DESCRIPTION"/>
+	</Traits>
+	<TraitModifiers>
+		<Row TraitType="TRAIT_CIVILIZATION_STRATEGIC_DEPTH" ModifierId="TRAIT_ADD_VISIBILITY"/>
+	</TraitModifiers>
+	<CivilizationTraits>
+		<Row CivilizationType="CIVILIZATION_TURKEY" TraitType="TRAIT_CIVILIZATION_STRATEGIC_DEPTH"/>
+		<Row CivilizationType="CIVILIZATION_TURKEY" TraitType="TRAIT_CIVILIZATION_IMPROVEMENT_YALI"/>
+		<Row CivilizationType="CIVILIZATION_TURKEY" TraitType="TRAIT_CIVILIZATION_UNIT_HAKKARI"/>
+	</CivilizationTraits>
+	<Modifiers>
+		<Row>
+			<ModifierId>TRAIT_ADD_VISIBILITY</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADD_DIPLO_VISIBILITY</ModifierType>
+		</Row>
+	</Modifiers>
+	<ModifierArguments>
+		<Row>
+			<ModifierId>TRAIT_ADD_VISIBILITY</ModifierId>
+			<Name>Amount</Name>
+			<Value>3</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADD_VISIBILITY</ModifierId>
+			<Name>Source</Name>
+			<Value>SOURCE_TRAIT</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_ADD_VISIBILITY</ModifierId>
+			<Name>SourceType</Name>
+			<Value>DIPLO_SOURCE_FEMALE_ONLY</Value>
+		</Row>
+	</ModifierArguments>
+	<CityNames>
+		<Row CivilizationType="CIVILIZATION_TURKEY" CityName="Istanbul"/>
+		<Row CivilizationType="CIVILIZATION_TURKEY" CityName="Ankara"/>
+		<Row CivilizationType="CIVILIZATION_TURKEY" CityName="İzmir"/>
+		<Row CivilizationType="CIVILIZATION_TURKEY" CityName="Bursa"/>
+		<Row CivilizationType="CIVILIZATION_TURKEY" CityName="Adana"/>
+		<Row CivilizationType="CIVILIZATION_TURKEY" CityName="Gaziantep"/>
+		<Row CivilizationType="CIVILIZATION_TURKEY" CityName="Konya"/>
+		<Row CivilizationType="CIVILIZATION_TURKEY" CityName="Antalya"/>
+		<Row CivilizationType="CIVILIZATION_TURKEY" CityName="Kayseri"/>
+		<Row CivilizationType="CIVILIZATION_TURKEY" CityName="Mersin"/>
+		<Row CivilizationType="CIVILIZATION_TURKEY" CityName="Eskişehir"/>
+		<Row CivilizationType="CIVILIZATION_TURKEY" CityName="Diyarbakır"/>
+		<Row CivilizationType="CIVILIZATION_TURKEY" CityName="Samsun"/>
+		<Row CivilizationType="CIVILIZATION_TURKEY" CityName="Denizli"/>
+		<Row CivilizationType="CIVILIZATION_TURKEY" CityName="Şanlıurfa"/>
+		<Row CivilizationType="CIVILIZATION_TURKEY" CityName="Adapazarı"/>
+		<Row CivilizationType="CIVILIZATION_TURKEY" CityName="Malatya"/>
+		<Row CivilizationType="CIVILIZATION_TURKEY" CityName="Kahramanmaraş"/>
+		<Row CivilizationType="CIVILIZATION_TURKEY" CityName="Erzurum"/>
+		<Row CivilizationType="CIVILIZATION_TURKEY" CityName="Van"/>
+		<Row CivilizationType="CIVILIZATION_TURKEY" CityName="Batman"/>
+		<Row CivilizationType="CIVILIZATION_TURKEY" CityName="Elâzığ"/>
+		<Row CivilizationType="CIVILIZATION_TURKEY" CityName="İzmit"/>
+		<Row CivilizationType="CIVILIZATION_TURKEY" CityName="Manisa"/>
+		<Row CivilizationType="CIVILIZATION_TURKEY" CityName="Sivas"/>
+		<Row CivilizationType="CIVILIZATION_TURKEY" CityName="Gebze"/>
+		<Row CivilizationType="CIVILIZATION_TURKEY" CityName="Balıkesir"/>
+		<Row CivilizationType="CIVILIZATION_TURKEY" CityName="Tarsus"/>
+	</CityNames>
+	<StartBiasTerrains>
+		<Row CivilizationType="CIVILIZATION_TURKEY" TerrainType="TERRAIN_PLAINS_HILLS" Tier="1"/>
+	</StartBiasTerrains>
+	<StartBiasRivers>
+		<Row CivilizationType="CIVILIZATION_TURKEY" Tier="4"/>
+	</StartBiasRivers>
+</GameInfo>

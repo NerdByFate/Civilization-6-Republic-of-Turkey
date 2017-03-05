@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GameData>
+	<IconTextureAtlases>
+		<!--Leader Icons-->
+		<Row Name="ICON_ATLAS_KEMAL" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="Kemal32.dds"/>
+		<Row Name="ICON_ATLAS_KEMAL" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="Kemal45.dds"/>
+		<Row Name="ICON_ATLAS_KEMAL" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="Kemal50.dds"/>
+		<Row Name="ICON_ATLAS_KEMAL" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="Kemal55.dds"/>
+		<Row Name="ICON_ATLAS_KEMAL" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="Kemal64.dds"/>
+		<Row Name="ICON_ATLAS_KEMAL" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="Kemal80.dds"/>
+		<Row Name="ICON_ATLAS_KEMAL" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Kemal256.dds"/>
+		
+		<!--Civilization Icons-->
+		<Row Name="ICON_ATLAS_TURKEY" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="Turkey_Atlas22.dds"/>
+	    <Row Name="ICON_ATLAS_TURKEY" IconSize="30" IconsPerRow="1" IconsPerColumn="1" Filename="Turkey_Atlas30.dds"/>
+		<Row Name="ICON_ATLAS_TURKEY" IconSize="36" IconsPerRow="1" IconsPerColumn="1" Filename="Turkey_Atlas36.dds"/>
+		<Row Name="ICON_ATLAS_TURKEY" IconSize="44" IconsPerRow="1" IconsPerColumn="1" Filename="Turkey_Atlas44.dds"/>
+		<Row Name="ICON_ATLAS_TURKEY" IconSize="45" IconsPerRow="1" IconsPerColumn="1" Filename="Turkey_Atlas45.dds"/>
+		<Row Name="ICON_ATLAS_TURKEY" IconSize="48" IconsPerRow="1" IconsPerColumn="1" Filename="Turkey_Atlas48.dds"/>
+		<Row Name="ICON_ATLAS_TURKEY" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="Turkey_Atlas50.dds"/>
+		<Row Name="ICON_ATLAS_TURKEY" IconSize="64" IconsPerRow="1" IconsPerColumn="1" Filename="Turkey_Atlas64.dds"/>
+		<Row Name="ICON_ATLAS_TURKEY" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="Turkey_Atlas80.dds"/>
+		<Row Name="ICON_ATLAS_TURKEY" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Turkey_Atlas256.dds"/>
+		
+		<!--Building Icons-->
+		<Row Name="ICON_ATLAS_YALI" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="Yali32.dds"/>
+		<Row Name="ICON_ATLAS_YALI_FOW" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="Yali32.dds"/>
+		<Row Name="ICON_ATLAS_YALI" IconSize="38" IconsPerRow="1" IconsPerColumn="1" Filename="Yali38.dds"/>
+		<Row Name="ICON_ATLAS_YALI" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="Yali50.dds"/>
+		<Row Name="ICON_ATLAS_YALI" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="Yali80.dds"/>
+		<Row Name="ICON_ATLAS_YALI" IconSize="128" IconsPerRow="1" IconsPerColumn="1" Filename="Yali128.dds"/>
+		<Row Name="ICON_ATLAS_YALI" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Yali256.dds"/>
+
+		<!--Unit Icons-->
+		<Row Name="ICON_ATLAS_HAKKARI_SYMBOL_WHITE" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="Brigade22.dds"/>
+		<Row Name="ICON_ATLAS_HAKKARI_SYMBOL_WHITE" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="Brigade32.dds"/>
+		<Row Name="ICON_ATLAS_HAKKARI_SYMBOL_BLACK" IconSize="32" IconsPerRow="1" IconsPerColumn="1" Filename="Brigade32.dds"/>
+		<Row Name="ICON_ATLAS_HAKKARI_SYMBOL_WHITE" IconSize="50" IconsPerRow="1" IconsPerColumn="1" Filename="Brigade50.dds"/>
+		<Row Name="ICON_ATLAS_HAKKARI_SYMBOL_WHITE" IconSize="80" IconsPerRow="1" IconsPerColumn="1" Filename="Brigade80.dds"/>
+		<Row Name="ICON_ATLAS_HAKKARI_SYMBOL_WHITE" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Hakkari256.dds"/>
+	</IconTextureAtlases>
+	
+	<IconDefinitions>
+		<Row Name="ICON_IMPROVEMENT_YALI_FOW" Atlas="ICON_ATLAS_YALI_FOW" Index="0"/>
+		<Row Name="ICON_IMPROVEMENT_YALI" Atlas="ICON_ATLAS_YALI" Index="0"/>
+		
+		<Row Name="ICON_CIVILIZATION_TURKEY" Atlas="ICON_ATLAS_TURKEY" Index="0"/>
+		
+		<Row Name="ICON_LEADER_MUSTAFA_KEMAL" Atlas="ICON_ATLAS_KEMAL" Index="0"/>
+		
+		<Row Name="ICON_UNIT_HAKKARI" Atlas="ICON_ATLAS_HAKKARI_SYMBOL_WHITE" Index="0"/>
+		<Row Name="ICON_UNIT_HAKKARI" Atlas="ICON_ATLAS_HAKKARI_SYMBOL_BLACK" Index="0"/>
+	</IconDefinitions>
+</GameData>

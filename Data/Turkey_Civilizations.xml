@@ -84,4 +84,10 @@
 	<StartBiasRivers>
 		<Row CivilizationType="CIVILIZATION_TURKEY" Tier="4"/>
 	</StartBiasRivers>
+	<StartPosition>
+		<Replace MapName="GiantEarth" Civilization="CIVILIZATION_TURKEY"    X="33" Y="58" />
+		<Replace MapName="GreatestEarthMap" Civilization="CIVILIZATION_TURKEY"    X="60" Y="45" />
+		<Replace MapName="LargestEarth" Civilization="CIVILIZATION_TURKEY"    X="40" Y="75" />
+		<Replace MapName="PlayEuropeAgain" Civilization="CIVILIZATION_TURKEY"    X="69" Y="32" />
+	</StartPosition>
 </GameInfo>

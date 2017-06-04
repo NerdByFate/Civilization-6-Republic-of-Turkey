@@ -1,4 +1,11 @@
 1. Add Images DONE
-2. Add Music
-	Ceddin Deden
-3. Profit
+2. Add Music DONE
+3. Fix Cleopatra Bug DONE
+4. Add Building/Unit Flavouring DONE
+5. Add Music DONE
+6. Change Capital to Ankara
+7. Tweak "Kemalism" to grant 35% war weariness reduction on top of its current benifits
+8. Tweak "Strategic Depth" to allow campus districts to grant +2 science per turn on top of its current benifits
+9. Add Erdogan as an alternate leader
+10. Switch to Semantic Versioning
+11. Profit

@@ -8,5 +8,12 @@
 				<SecondaryColor>COLOR_PLAYER_TURKEY_SECONDARY</SecondaryColor>
 				<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
 			</Row>
+			<Row>
+				<Type>LEADER_RECEP_TAYYIP_ERDOGAN</Type>
+				<Usage>Unique</Usage>
+				<PrimaryColor>COLOR_PLAYER_TURKEY_SECONDARY</PrimaryColor>
+				<SecondaryColor>COLOR_PLAYER_TURKEY_PRIMARY</SecondaryColor>
+				<TextColor>COLOR_PLAYER_WHITE_TEXT</TextColor>
+			</Row>
 	</PlayerColors>
 </GameInfo>

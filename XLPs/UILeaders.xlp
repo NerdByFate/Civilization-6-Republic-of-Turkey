@@ -13,6 +13,10 @@
 			<m_EntryID text="LEADER_MUSTAFA_KEMAL_NEUTRAL"/>
 			<m_ObjectName text="LEADER_MUSTAFA_KEMAL_NEUTRAL"/>
 		</Element>
+		<Element>
+			<m_EntryID text="LEADER_RECEP_TAYYIP_ERDOGAN_NEUTRAL"/>
+			<m_ObjectName text="LEADER_RECEP_TAYYIP_ERDOGAN_NEUTRAL"/>
+		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>

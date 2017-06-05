@@ -553,6 +553,7 @@
 				<Element text="UILeaders"/>
 				<Element text="LeaderBackgrounds"/>
 				<Element text="Leader_Mustafa_Kemal"/>
+				<Element text="Leader_Recep_Tayyip_Erdogan"/>
 				<Element text="Icons"/>
 			</relativePackagePaths>
 		</Element>

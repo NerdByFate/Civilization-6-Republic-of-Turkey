@@ -2,23 +2,35 @@
 <GameInfo>
 	<Types>
 		<Row Type="LEADER_MUSTAFA_KEMAL" Kind="KIND_LEADER"/>
+		<Row Type="LEADER_RECEP_TAYYIP_ERDOGAN" Kind="KIND_LEADER"/>
 		<Row Type="TRAIT_LEADER_KEMALISM" Kind="KIND_TRAIT"/>
+		<Row Type="TRAIT_LEADER_OTTOMANISM" Kind="KIND_TRAIT"/>
 	</Types>
 	<Leaders>
 		<Row LeaderType="LEADER_MUSTAFA_KEMAL" Name="LOC_LEADER_MUSTAFA_KEMAL_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
+		<Row LeaderType="LEADER_RECEP_TAYYIP_ERDOGAN" Name="LOC_LEADER_RECEP_TAYYIP_ERDOGAN_NAME" InheritFrom="LEADER_DEFAULT" SceneLayers="4"/>
 	</Leaders>
 	<HistoricalAgendas>
 		<Row LeaderType="LEADER_MUSTAFA_KEMAL" AgendaType="AGENDA_BIG_STICK_POLICY"/>
+		<Row LeaderType="LEADER_RECEP_TAYYIP_ERDOGAN" AgendaType="AGENDA_DELIAN_LEAGUE"/>
 	</HistoricalAgendas>
 	<AiListTypes>
 		<Row ListType="MustafaCivics"/>
 		<Row ListType="MustafaTechs"/>
 		<Row ListType="MustafaWonders"/>
+
+		<Row ListType="ErdoganCivics"/>
+		<Row ListType="ErdoganTechs"/>
+		<Row ListType="ErdoganWonders"/>
 	</AiListTypes>
 	<AiLists>
 		<Row ListType="MustafaWonders" LeaderType="TRAIT_LEADER_KEMALISM" System="Buildings"/>
 		<Row ListType="MustafaCivics" LeaderType="TRAIT_LEADER_KEMALISM" System="Civics"/>
 		<Row ListType="MustafaTechs" LeaderType="TRAIT_LEADER_KEMALISM" System="Technologies"/>
+		
+		<Row ListType="ErdoganWonders" LeaderType="TRAIT_LEADER_OTTOMANISM" System="Buildings"/>
+		<Row ListType="ErdoganCivics" LeaderType="TRAIT_LEADER_OTTOMANISM" System="Civics"/>
+		<Row ListType="ErdoganTechs" LeaderType="TRAIT_LEADER_OTTOMANISM" System="Technologies"/>
 	</AiLists>
 	<AiFavoredItems>
 		<Row ListType="MustafaWonders" Item="BUILDING_OXFORD_UNIVERSITY"/>
@@ -30,20 +42,44 @@
 		<Row ListType="MustafaCivics" Item="CIVIC_SUFFRAGE"/>
 		<Row ListType="MustafaTechs" Item="TECH_NUCLEAR_FUSION"/>
 		<Row ListType="MustafaTechs" Item="TECH_NUCLEAR_FISSION"/>
+
+		<Row ListType="ErdoganWonders" Item="BUILDING_TERRACOTTA_ARMY"/> <!--Could cause issues-->
+		<Row ListType="ErdoganCivics" Item="CIVIC_MERCENARIES"/>
+		<Row ListType="ErdoganCivics" Item="CIVIC_EARLY_EMPIRE"/>
+		<Row ListType="ErdoganCivics" Item="CIVIC_POLITICAL_PHILOSOPHY"/>
+		<Row ListType="ErdoganCivics" Item="CIVIC_THE_ENLIGHTENMENT"/>
+		<Row ListType="ErdoganCivics" Item="CIVIC_TOTALITARIANISM"/>
+		<Row ListType="ErdoganCivics" Item="CIVIC_GLOBALIZATION"/>
+		<Row ListType="ErdoganTechs" Item="TECH_CONSTRUCTION"/>
+		<Row ListType="ErdoganTechs" Item="TECH_NUCLEAR_FUSION"/>
+		<Row ListType="ErdoganTechs" Item="TECH_NUCLEAR_FISSION"/>
 	</AiFavoredItems>
 	<LeaderTraits>
 		<Row LeaderType="LEADER_MUSTAFA_KEMAL" TraitType="TRAIT_LEADER_KEMALISM"/>
+		<Row LeaderType="LEADER_RECEP_TAYYIP_ERDOGAN" TraitType="TRAIT_LEADER_OTTOMANISM"/>
 	</LeaderTraits>
 	<Traits>
 		<Row TraitType="TRAIT_LEADER_KEMALISM" Name="LOC_TRAIT_LEADER_KEMALISM_NAME" Description="LOC_TRAIT_LEADER_KEMALISM_DESCRIPTION"/>
+		<Row TraitType="TRAIT_LEADER_OTTOMANISM" Name="LOC_TRAIT_LEADER_OTTOMANISM_NAME" Description="LOC_TRAIT_LEADER_OTTOMANISM_DESCRIPTION"/>
 	</Traits>
 	<TraitModifiers>
 		<Row TraitType="TRAIT_LEADER_KEMALISM" ModifierId="TRAIT_LUXURY_BONUS"/>
+		<Row TraitType="TRAIT_LEADER_KEMALISM" ModifierId="TRAIT_WAR_REDUC"/>
+
+		<Row TraitType="TRAIT_LEADER_OTTOMANISM" ModifierId="TRAIT_RELIGIOUS_CITIES_BONUS"/>
 	</TraitModifiers>
 	<Modifiers>
 		<Row>
 			<ModifierId>TRAIT_LUXURY_BONUS</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_OWNED_LUXURY_EXTRA_AMENITIES</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_WAR_REDUC</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_ADJUST_WAR_WEARINESS</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RELIGIOUS_CITIES_BONUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_RELIGION_ADD_PLAYER_BELIEF_YIELD</ModifierType>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -52,8 +88,41 @@
 			<Name>Amount</Name>
 			<Value>6</Value>
 		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_WAR_REDUC</ModifierId>
+			<Name>Amount</Name>
+			<Value>-35</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_WAR_REDUC</ModifierId>
+			<Name>Overall</Name>
+			<Value>true</Value>
+		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_RELIGIOUS_CITIES_BONUS</ModifierId>
+			<Name>BeliefYieldType</Name>
+			<Value>BELIEF_YIELD_PER_CITY</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RELIGIOUS_CITIES_BONUS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_GOLD</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RELIGIOUS_CITIES_BONUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_RELIGIOUS_CITIES_BONUS</ModifierId>
+			<Name>PerXItems</Name>
+			<Value>1</Value>
+		</Row>
 	</ModifierArguments>
 	<DiplomacyInfo>
 		<Row Type="LEADER_MUSTAFA_KEMAL" BackgroundImage="ART_LEADER_MUST.dds"/>
+		<Row Type="LEADER_RECEP_TAYYIP_ERDOGAN" BackgroundImage="ART_LEADER_ERDO.dds"/>
 	</DiplomacyInfo>
 </GameInfo>

@@ -9,6 +9,14 @@
 		<Row Name="ICON_ATLAS_KEMAL" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="Kemal64.dds"/>
 		<Row Name="ICON_ATLAS_KEMAL" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="Kemal80.dds"/>
 		<Row Name="ICON_ATLAS_KEMAL" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Kemal256.dds"/>
+
+		<Row Name="ICON_ATLAS_ERDOGAN" IconSize="32"  IconsPerRow="1" IconsPerColumn="1" Filename="Erdogan32.dds"/>
+		<Row Name="ICON_ATLAS_ERDOGAN" IconSize="45"  IconsPerRow="1" IconsPerColumn="1" Filename="Erdogan45.dds"/>
+		<Row Name="ICON_ATLAS_ERDOGAN" IconSize="50"  IconsPerRow="1" IconsPerColumn="1" Filename="Erdogan50.dds"/>
+		<Row Name="ICON_ATLAS_ERDOGAN" IconSize="55"  IconsPerRow="1" IconsPerColumn="1" Filename="Erdogan55.dds"/>
+		<Row Name="ICON_ATLAS_ERDOGAN" IconSize="64"  IconsPerRow="1" IconsPerColumn="1" Filename="Erdogan64.dds"/>
+		<Row Name="ICON_ATLAS_ERDOGAN" IconSize="80"  IconsPerRow="1" IconsPerColumn="1" Filename="Erdogan80.dds"/>
+		<Row Name="ICON_ATLAS_ERDOGAN" IconSize="256" IconsPerRow="1" IconsPerColumn="1" Filename="Erdogan256.dds"/>
 		
 		<!--Civilization Icons-->
 		<Row Name="ICON_ATLAS_TURKEY" IconSize="22" IconsPerRow="1" IconsPerColumn="1" Filename="Turkey_Atlas22.dds"/>
@@ -47,6 +55,7 @@
 		<Row Name="ICON_CIVILIZATION_TURKEY" Atlas="ICON_ATLAS_TURKEY" Index="0"/>
 		
 		<Row Name="ICON_LEADER_MUSTAFA_KEMAL" Atlas="ICON_ATLAS_KEMAL" Index="0"/>
+		<Row Name="ICON_LEADER_RECEP_TAYYIP_ERDOGAN" Atlas="ICON_ATLAS_ERDOGAN" Index="0"/>
 		
 		<Row Name="ICON_UNIT_HAKKARI" Atlas="ICON_ATLAS_HAKKARI_SYMBOL_WHITE" Index="0"/>
 		<Row Name="ICON_UNIT_HAKKARI" Atlas="ICON_ATLAS_HAKKARI_SYMBOL_BLACK" Index="0"/>

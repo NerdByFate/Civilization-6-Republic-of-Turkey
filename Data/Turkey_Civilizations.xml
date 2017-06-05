@@ -10,7 +10,8 @@
 		<Row CivilizationType="CIVILIZATION_TURKEY" Name="LOC_CIVILIZATION_TURKEY_NAME" Description="LOC_CIVILIZATION_TURKEY_DESCRIPTION" Adjective="LOC_CIVILIZATION_TURKEY_ADJECTIVE" StartingCivilizationLevelType="CIVILIZATION_LEVEL_FULL_CIV" RandomCityNameDepth="3" Ethnicity="ETHNICITY_EURO"/>
 	</Civilizations>
 	<CivilizationLeaders>
-		<Row CivilizationType="CIVILIZATION_TURKEY" LeaderType="LEADER_MUSTAFA_KEMAL" CapitalName="Istanbul"/>
+		<Row CivilizationType="CIVILIZATION_TURKEY" LeaderType="LEADER_MUSTAFA_KEMAL" CapitalName="Ankara"/>
+		<Row CivilizationType="CIVILIZATION_TURKEY" LeaderType="LEADER_RECEP_TAYYIP_ERDOGAN" CapitalName="Istanbul"/>
 	</CivilizationLeaders>
 	<Traits>
 		<Row TraitType="TRAIT_CIVILIZATION_STRATEGIC_DEPTH" Name="LOC_TRAIT_CIVILIZATION_STRATEGIC_DEPTH_NAME" Description="LOC_TRAIT_CIVILIZATION_STRATEGIC_DEPTH_DESCRIPTION"/>
@@ -19,6 +20,7 @@
 	</Traits>
 	<TraitModifiers>
 		<Row TraitType="TRAIT_CIVILIZATION_STRATEGIC_DEPTH" ModifierId="TRAIT_ADD_VISIBILITY"/>
+		<Row TraitType="TRAIT_CIVILIZATION_STRATEGIC_DEPTH" ModifierId="TRAIT_SCIENCE_FOR_CAMPUS"/>
 	</TraitModifiers>
 	<CivilizationTraits>
 		<Row CivilizationType="CIVILIZATION_TURKEY" TraitType="TRAIT_CIVILIZATION_STRATEGIC_DEPTH"/>
@@ -29,6 +31,10 @@
 		<Row>
 			<ModifierId>TRAIT_ADD_VISIBILITY</ModifierId>
 			<ModifierType>MODIFIER_PLAYER_ADD_DIPLO_VISIBILITY</ModifierType>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SCIENCE_FOR_CAMPUS</ModifierId>
+			<ModifierType>MODIFIER_PLAYER_CITIES_DISTRICT_ADJACENCY</ModifierType>
 		</Row>
 	</Modifiers>
 	<ModifierArguments>
@@ -47,10 +53,31 @@
 			<Name>SourceType</Name>
 			<Value>DIPLO_SOURCE_FEMALE_ONLY</Value>
 		</Row>
+
+		<Row>
+			<ModifierId>TRAIT_SCIENCE_FOR_CAMPUS</ModifierId>
+			<Name>DistrictType</Name>
+			<Value>DISTRICT_CAMPUS</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SCIENCE_FOR_CAMPUS</ModifierId>
+			<Name>YieldType</Name>
+			<Value>YIELD_SCIENCE</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SCIENCE_FOR_CAMPUS</ModifierId>
+			<Name>Amount</Name>
+			<Value>2</Value>
+		</Row>
+		<Row>
+			<ModifierId>TRAIT_SCIENCE_FOR_CAMPUS</ModifierId>
+			<Name>Description</Name>
+			<Value>LOC_TRAIT_SCIENCE_FOR_CAMPUS_DESCRIPTION</Value>
+		</Row>
 	</ModifierArguments>
 	<CityNames>
-		<Row CivilizationType="CIVILIZATION_TURKEY" CityName="Istanbul"/>
 		<Row CivilizationType="CIVILIZATION_TURKEY" CityName="Ankara"/>
+		<Row CivilizationType="CIVILIZATION_TURKEY" CityName="Istanbul"/>
 		<Row CivilizationType="CIVILIZATION_TURKEY" CityName="İzmir"/>
 		<Row CivilizationType="CIVILIZATION_TURKEY" CityName="Bursa"/>
 		<Row CivilizationType="CIVILIZATION_TURKEY" CityName="Adana"/>

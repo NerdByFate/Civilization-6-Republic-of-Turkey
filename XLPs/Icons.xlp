@@ -38,6 +38,34 @@
 			<m_ObjectName text="Kemal32"/>
 		</Element>
 		<Element>
+			<m_EntryID text="Erdogan256"/>
+			<m_ObjectName text="Erdogan256"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Erdogan80"/>
+			<m_ObjectName text="Erdogan80"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Erdogan64"/>
+			<m_ObjectName text="Erdogan64"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Erdogan55"/>
+			<m_ObjectName text="Erdogan55"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Erdogan50"/>
+			<m_ObjectName text="Erdogan50"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Erdogan45"/>
+			<m_ObjectName text="Erdogan45"/>
+		</Element>
+		<Element>
+			<m_EntryID text="Erdogan32"/>
+			<m_ObjectName text="Erdogan32"/>
+		</Element>
+		<Element>
 			<m_EntryID text="Turkey_Atlas256"/>
 			<m_ObjectName text="Turkey_Atlas256"/>
 		</Element>

@@ -7,22 +7,17 @@
 		<revision>293</revision>
 	</m_Version>
 	<m_ClassName text="UITexture"/>
-	<m_PackageName text="LeaderBackgrounds"/>
+	<m_PackageName text="Leader_Recep_Tayyip_Erdogan"/>
 	<m_Entries>
 		<Element>
-			<m_EntryID text="LEADER_MUSTAFA_KEMAL_BACKGROUND"/>
-			<m_ObjectName text="LEADER_MUSTAFA_KEMAL_BACKGROUND"/>
-		</Element>
-		<Element>
-			<m_EntryID text="LEADER_RECEP_TAYYIP_ERDOGAN_BACKGROUND"/>
-			<m_ObjectName text="LEADER_RECEP_TAYYIP_ERDOGAN_BACKGROUND"/>
+			<m_EntryID text="ART_LEADER_ERDO"/>
+			<m_ObjectName text="ART_LEADER_ERDO"/>
 		</Element>
 	</m_Entries>
 	<m_AllowedPlatforms>
 		<Element>WINDOWS</Element>
 		<Element>LINUX</Element>
 		<Element>MACOS</Element>
-		<Element>IOS</Element>
 	</m_AllowedPlatforms>
 </AssetObjects::XLP>
 

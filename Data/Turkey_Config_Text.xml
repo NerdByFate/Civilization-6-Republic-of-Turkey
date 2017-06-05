@@ -7,29 +7,41 @@
 		<Row Tag="LOC_LEADER_MUSTAFA_KEMAL_NAME" Language="en_US">
 			<Text>Mustafa Kemal</Text>
 		</Row>
+		<Row Tag="LOC_LEADER_RECEP_TAYYIP_ERDOGAN_NAME" Language="en_US">
+			<Text>Recep Tayyip Erdoğan</Text>
+		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_STRATEGIC_DEPTH_NAME" Language="en_US">
 			<Text>Strategic Depth</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_CIVILIZATION_STRATEGIC_DEPTH_DESCRIPTION" Language="en_US">
-			<Text>+3 diplomatic visibility with all met Civilizations.</Text>
+			<Text>+3 diplomatic visibility with all met Civilizations. +2 [ICON_Science] adjacency bonus for campus districts placed next to other districts.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_SCIENCE_FOR_CAMPUS_DESCRIPTION" Language="en_US">
+			<Text>+2 adjacency bonus for campus districts placed next to other districts.</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_KEMALISM_NAME" Language="en_US">
 			<Text>Kemalism</Text>
 		</Row>
 		<Row Tag="LOC_TRAIT_LEADER_KEMALISM_DESCRIPTION" Language="en_US">
-			<Text>All Turkey-owned luxuries apply to 6 more cities than normal.</Text>
+			<Text>All Turkey-owned luxuries apply to 6 more cities than normal. Turkey experiences 35% less war weariness than normal.</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_OTTOMANISM_NAME" Language="en_US">
+			<Text>Ottomanism</Text>
+		</Row>
+		<Row Tag="LOC_TRAIT_LEADER_OTTOMANISM_DESCRIPTION" Language="en_US">
+			<Text>+2 [ICON_Gold] per turn for each city following Turkey's religion.</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_HAKKARI_NAME" Language="en_US">
 			<Text>Hakkâri Dağ ve Komando Tugayı</Text>
 		</Row>
 		<Row Tag="LOC_UNIT_HAKKARI_DESCRIPTION" Language="en_US">
-			<Text>Hakkari Mountain and Commando Brigade. A Commando-style unique unit that is unlocked with Replaceable Parts, has 4 less combat strength than an infantry, and has 4 movement instead of 2 (does not replace the Infantry).</Text>
+			<Text>Hakkari Mountain and Commando Brigade. A Commando-style unique unit that is unlocked with Replaceable Parts, has 4 less [ICON_Strength] than an infantry, and has 4 movement instead of 2 (does not replace the Infantry).</Text>
 		</Row>
 		<Row Tag="LOC_IMPROVEMENT_YALI_NAME" Language="en_US">
 			<Text>Yalı</Text>
 		</Row>
 		<Row Tag="LOC_IMPROVEMENT_YALI_DESCRIPTION" Language="en_US">
-			<Text>A unique improvement. Provides +3 culture, +1 science, and some housing. Must be built adjacent to the coast, or it provides no yields. More science and culture when adjacent to more than one coast tile.</Text>
+			<Text>A unique improvement. Provides +3 [ICON_Culture], +1 [ICON_Science], and some +1 [ICON_Housing]. Must be built adjacent to the coast, or it provides no yields. More science and culture when adjacent to more than one coast tile.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_UNITS_PAGE_UNIT_HAKKARI_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>The Hakkari Mountain and Commando Brigade is a Turkish military unit that is used in mountain warfare and Commando operations. It is primarily used in struggles with the Kurditan Workers' Party.</Text>
@@ -43,14 +55,28 @@
 		<Row Tag="LOC_LOADING_INFO_LEADER_MUSTAFA_KEMAL" Language="en_US">
 			<Text>Greetings o great Atatürk! They do not call you "Father Turk" for nothing, as it was your military prowess and will for reform that established and maintained the Republic of Turkey. Forged from the ruins of the Ottoman Empire after World War I, the Republic of Turkey quickly became a power to be reckoned with. It was not that simple, however, as you had to fight the Greeks in order to gain sovereignty. You succeded. Can you, president Kemal, create an empire to stand the test of time?</Text>
 		</Row>
+		<Row Tag="LOC_LOADING_INFO_LEADER_RECEP_TAYYIP_ERDOGAN" Language="en_US">
+			<Text>Greetings to you, President Recep Tayyip Erdoğan. You faced much opposition during your reign, such as political neutrality and an attempted coup d'etat. You triumphed over these miniscule issues and, to some extent, reestablished the Ottoman sultanate, securing your absolute power. Can you create a Turkey comparable to the former glory of the Ottoman Empire? Will you seek foreign aid, perhaps from the infamous Donald Trump? Can you create a civilization to stand the test of time?</Text>
+		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MUSTAFA_KEMAL_TITLE" Language="en_US">
 			<Text>Atatürk</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MUSTAFA_KEMAL_SUBTITLE" Language="en_US">
 			<Text>Atatürk</Text>
 		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_RECEP_TAYYIP_ERDOGAN_TITLE" Language="en_US">
+			<Text>President</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_RECEP_TAYYIP_ERDOGAN_SUBTITLE" Language="en_US">
+			<Text>President</Text>
+		</Row>
 		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_MUSTAFA_KEMAL_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>Mustafa Kemal was the first president of the Republic of Turkey. He was known by his people as Atatürk, "Father Turk," for several reasons. Kemal commanded the Turkish armies after the fall of the Ottoman Turks in a war against Greece. Succeeding, Kemal founded the Republic of Turkey and became a national hero. During his rule, Kemal established a number of reforms, some quite contraversial. Kemal's reforms, known as "Kemalism," were mimicked to an extent by Iran.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_LEADERS_PAGE_LEADER_RECEP_TAYYIP_ERDOGAN_CHAPTER_HISTORY_PARA_1" Language="en_US">
+			<Text>
+				Recep Tayyip Erdoğan is the current President of Turkey, and has held the position since 2014. He previously served as Prime Minister of Turkey from 2003 to 2014 and as Mayor of Istanbul from 1994 to 1998. He founded the Justice and Development Party (AKP) in 2001, leading it to general election victories in 2002, 2007 and 2011 before standing down upon his election as President in 2014. Coming from an Islamist political background and as a self-described conservative democrat, his administration has overseen social conservative and liberal economic policies, an agenda often referred to as Erdoğanism. Erdoğan played football for Kasımpaşa before being elected as the Mayor of Istanbul from the Islamist Welfare Party in 1994. He was stripped of his position, banned from political office, and imprisoned for four months, for reciting a poem during a speech in 1998, after which he abandoned openly Islamist politics and established the moderate conservative AKP in 2001. Following the AKP's landslide victory in 2002, the party's co-founder Abdullah Gül became Prime Minister until his government annulled Erdoğan's ban from political office. Erdoğan became Prime Minister in March 2003 after winning a by-election in Siirt. Erdoğan's government oversaw negotiations for Turkey's membership of the European Union, an economic recovery following a financial crash in 2001, changes to the constitution via referenda in 2007 and 2010, a Neo-Ottoman foreign policy and investments in infrastructure including roads, airports, and a high-speed train network. With the help of the Cemaat Movement led by preacher Fethullah Gülen, Erdoğan was able to curb the power of the military through the Sledgehammer and Ergenekon court cases. In late 2012, his government began peace negotiations with the Kurdistan Workers Party (PKK) to end the ongoing PKK insurgency that began in 1978. The ceasefire broke down in 2015, leading to a renewed escalation in conflict. In 2016, a coup d'état was unsuccessfully attempted against Erdoğan and Turkish state institutions. This was followed by purges and an ongoing state of emergency. Nationwide protests against the perceived authoritarianism of Erdoğan's government began in May 2013, with an internationally criticised police crackdown resulting in 22 deaths and the stalling of EU membership negotiations. Following a split with Gülen, Erdoğan promulgated sweeping judicial reforms he insisted were needed to purge Gülen's sympathisers, but which were criticised for threatening judicial independence. A $100 billion corruption scandal in 2013 led to the arrests of Erdoğan's close allies, and incriminated Erdoğan. His government has since come under fire for alleged human rights violations and crackdown on press and social media, having blocked access to Twitter, Facebook and YouTube on numerous occasions. Erdoğan's government lifted the bans upon court orders. Journalists have criticised his authoritarian tendencies; more journalists have been incarcerated in Turkey than in any other country. Political commentators have stated that Erdoğan's unceasing efforts at broadening his executive powers while also minimizing his executive accountability amount to the "fall of Turkish democracy," and the "birth of a dictator," while Erdogan supporters contend that Turkey remains a majoritarian democracy, claiming that the government's disputed April 2017 elections were legitimate.
+			</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CIVILIZATIONS_PAGE_CIVILIZATION_TURKEY_CHAPTER_HISTORY_PARA_1" Language="en_US">
 			<Text>The Republic of Turkey was forged from the ruins of the Ottoman Empire. The Ottomans, already weakened, could not handle the consequences of being on the losing side of World War I. Opposed by the Allies, portions of the Ottoman Empire began to rebel. When the Ottomans finally fell, it was Mustafa Kemal who was there to clean up the region. Kemal routed the Greeks, who had interest in the area, and established the Republic of Turkey.</Text>

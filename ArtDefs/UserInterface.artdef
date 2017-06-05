@@ -1,0 +1,18 @@
+<AssetObjects::ArtDefSet>
+	<m_Version>
+		<major>3</major>
+		<minor>0</minor>
+		<build>215</build>
+		<revision>207</revision>
+	</m_Version>
+	<m_TemplateName text="UserInterfaceBLPs"/>
+	<m_RootCollections/>
+	<m_BLPReferences>
+		<Element>
+			<xlpFile text="UILeaders.xlp"/>
+			<blpPackage text="UILeaders"/>
+			<xlpClass text="UITexture"/>
+		</Element>
+	</m_BLPReferences>
+</AssetObjects::ArtDefSet>
+

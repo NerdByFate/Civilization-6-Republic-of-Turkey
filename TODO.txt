@@ -4,9 +4,11 @@
 4. Add Building/Unit Flavouring DONE
 5. Add Music DONE
 6. Change Capital to Ankara DONE
-7. Tweak "Kemalism" to grant 35% war weariness reduction on top of its current benifits DONE
-8. Tweak "Strategic Depth" to allow campus districts to grant +2 to each adjacency bonus on top of its current benifits DONE
+7. Tweak "Kemalism" to grant 35% war weariness reduction on top of its current benefits DONE
+8. Tweak "Strategic Depth" to allow campus districts to grant +2 to each adjacency bonus on top of its current benefits DONE
 9. Add icons to the loading screen text DONE
 10. Add Erdogan as an alternate leader DONE
 11. Switch to Semantic Versioning DONE
-12. Profit
+12. Update to Rise & Fall DONE
+13. Split Erdogan from the Workshop version DONE
+14. Profit
